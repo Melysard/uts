@@ -1,0 +1,299 @@
+@font-face 
+{
+    font-family: Zombie Brain;
+    src: url(Zombie\ Brain.ttf);
+}
+
+h1, h2, nav, .hero
+{
+    font-family: Zombie Brain;
+}
+
+@font-face 
+{
+    font-family: Tell Me A Joke;
+    src: url(Tell\ Me\ A\ Joke.ttf);
+}
+
+p, table, th, td, .contact-form, .contact-form button 
+{
+    font-family: Tell Me A Joke;
+}
+
+body, h1, h2, p, nav, a  table, th, td
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-color: seashell;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: navy;
+}
+
+header 
+{
+    background-color: slategray;
+    color: navy;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 
+{
+    margin-bottom: 10px;
+}
+
+nav 
+{
+    text-align: center;
+}
+
+nav a 
+{
+
+    text-decoration: none;
+    margin: 0 10px;
+    color: navy;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+    color: navy;
+}
+
+main 
+{
+    padding: 20px;
+}
+
+/* homepage */
+.hero 
+{
+    background-color: slategray;
+    color: navy;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h2 
+{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.hero p 
+{
+    font-size: 40px;
+    font-style: italic;
+    color: navy;
+}
+
+.intro 
+{
+    padding: 20px;
+}
+.intro p 
+{
+    font-size: 20px;
+    color: steelblue;
+}
+
+.about-me 
+{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px steelblue;
+    margin-bottom: 20px;
+}
+.about-me h2 
+{
+    margin-bottom: 10px;
+}
+.about-me p 
+{
+    font-size: 20px;
+    line-height: 1.6;
+    color: steelblue;
+}
+
+/* education */
+.edu 
+{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px steelblue;
+}
+h2 
+{
+    color: navy;
+}
+p 
+{
+    color: steelblue;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* table */
+.matkul 
+{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px steelblue;
+    margin-bottom: 20px;
+}
+
+.matkul h2 
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    padding: 10px;
+    border: 1px solid slategray;
+}
+
+th 
+{
+    background-color: seashell;
+    font-weight: bold;
+    color: navy;
+}
+
+td 
+{
+    text-align: center;
+    color: steelblue;
+}
+
+/* Contact */
+.contact-form 
+{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px steelblue;
+    margin-bottom: 20px;
+}
+
+.contact-form h2 
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label
+{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact-form input,
+.contact-form textarea 
+{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid seashell;
+    border-radius: 15px;
+}
+
+.contact-form button 
+{
+    padding: 10px 20px;
+    background-color: navy;
+    color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover 
+{
+    background-color: navy;
+}
+
+/* Contact information */
+section 
+{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px steelblue;
+    margin-bottom: 20px;
+}
+
+section h2 
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p 
+{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+/* Picture*/
+h2 
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.media 
+{
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px steelblue;
+    margin-bottom: 20px;
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+}
+.media img 
+{
+    width: 18%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* footer*/
+footer 
+{
+    background-color: slategray;
+    color: seashell;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p 
+{
+    color:seashell;
+    margin: 0;
+}
